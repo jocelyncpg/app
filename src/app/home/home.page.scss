@@ -1,0 +1,23 @@
+/* src/app/pages/home/home.page.scss */
+
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--ion-color-primary);
+  margin-bottom: 20px;
+}
+
+ion-img {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 18px;
+  color: var(--ion-text-color);
+}

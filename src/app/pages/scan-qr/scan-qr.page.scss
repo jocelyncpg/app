@@ -1,0 +1,19 @@
+/* src/app/pages/scan-qr/scan-qr.page.scss */
+
+.page-scan-qr {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .camera-container {
+    margin-top: 20px;
+  }
+  
+  .scan-button {
+    background-color: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  

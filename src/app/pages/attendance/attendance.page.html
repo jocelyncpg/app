@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <div class="header-content">
+        <img src="https://cdn-icons-png.flaticon.com/512/3175/3175622.png" alt="University Logo" class="university-logo" />
+        <span class="page-title">Bienvenido</span>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-label>BIENVENIDO, {{ username }}</ion-label>
+  <ion-button expand="full" routerLink="/scan-qr">Scan QR Code</ion-button>
+</ion-content>
+
+
+
+<ion-button expand="full" routerLink="/view-attendance">Ver Asistencia</ion-button>
+
+<ion-footer> <!--footer inicio-->
+  <ion-toolbar class="ion-text-center">
+    <ion-icon name="logo-twitter"></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
+    <ion-icon name="logo-facebook"></ion-icon>
+    <ion-icon name="logo-tiktok"></ion-icon>
+  </ion-toolbar>
+</ion-footer><!--footer fin-->
