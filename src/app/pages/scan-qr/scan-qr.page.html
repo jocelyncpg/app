@@ -14,8 +14,11 @@
     <div class="camera-container">
       <!-- Aquí va el visor de la cámara para escanear QR -->
     </div>
-    <ion-button class="scan-button" (click)="startScan()">Iniciar Escaneo</ion-button>
+    <ion-button expand="full" (click)="startScan()">Scanning</ion-button>
+
   </div>
+  <video id="camera-preview" style="width: 100%; height: 100%;"></video>
+
 </ion-content>
 
 

@@ -1,0 +1,12 @@
+/* Establece el fondo negro para toda la aplicación */
+body {
+    background-color: #000000; /* Negro */
+    color: #ffffff; /* Blanco para el texto */
+  }
+  
+  /* Estilo para los botones naranjas */
+  ion-button {
+    --background: #ff6600; /* Naranja */
+    --color: #ffffff; /* Blanco para el texto del botón */
+  }
+  

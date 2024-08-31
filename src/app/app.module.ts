@@ -11,7 +11,7 @@ import { ExtraPageModule } from './pages/extra/extra.module';
 import { FormsModule } from '@angular/forms';
 import { RouteReuseStrategy } from '@angular/router';
 import { FooterModule } from './footer/footer.module';
-import { QRScanner } from '@ionic-native/qr-scanner/ngx'; // Importa el QRScanner
+import { QRScanner } from '@ionic-native/qr-scanner/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,11 +25,16 @@ import { QRScanner } from '@ionic-native/qr-scanner/ngx'; // Importa el QRScanne
     ScanQrPageModule,
     ExtraPageModule,
     FormsModule,
-    FooterModule
+    FooterModule,
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    FormsModule,
   ],
+
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    QRScanner // Agrega QRScanner aquí
+    QRScanner,
   ],
   bootstrap: [AppComponent]
 })
